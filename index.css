@@ -1,0 +1,136 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{box-sizing: border-box;
+margin: 0 0;
+padding: 0 0
+}
+body {padding-right: 0;
+     margin-right: 0}
+a {text-decoration: none}
+.backgrd {width: 100%;
+          height: 1000px}
+.overlay {position: absolute;
+          width: 100%;
+          height : 1000px;
+          background-color: #2e2a1f;
+          opacity: 0.95;
+          z-index: 200000;
+          margin-right: 0;
+          padding-right: 0
+          }
+.main {padding: 0;
+       height: 100%;
+       padding-right: 0;
+       margin-right: 0}
+nav { background-color: #ebbd3f;
+       z-index: 500000000;
+     position: fixed;
+     width: 110%}
+.footer {padding-right: 0;
+       height: 250px;
+       background-color: #ebbd3f;
+       color: white;
+       padding-top: 30px;
+       overflow: hidden;
+ }
+.about {margin-top: 20px;
+
+       color: white}
+.projects {margin-top: 200px;
+              color: white}
+
+ul {list-style-type: none;}
+              li {color: white;
+   }
+.contacts {display: inline;
+           }
+.icon-github-sign {color: white;
+                   margin-right: 20px}
+.icon-facebook-sign {color: white;
+                      margin-right: 20px}
+.icon-twitter-sign {color: white;
+              margin-right: 20px}
+.imgcontainer {width : 200px;
+              height: 200px;
+              margin: auto auto;
+              }
+.myface {width: 100%;
+         width: 200px;
+         }
+.p {font-family: 'Dancing Script', cursive;}
+
+hr {border: solid white 2px;
+    width: 200px;
+    margin: auto auto}
+.pj {color: white}
+.h2 {color: white}
+.peace{margin-top: 100px;
+       font-family: 'Dancing Script', cursive;}
+@media (max-width : 600px) {
+       body {padding-right: 0;
+              margin-right: 0}
+         a {text-decoration: none}
+         .backgrd {width: 100%;
+                   height: 1000px}
+         .overlay {position: absolute;
+                   width: 100%;
+                   height : 1000px;
+                   background-color: #2e2a1f;
+                   opacity: 0.95;
+                   z-index: 200000;
+                   margin-right: 0;
+                   padding-right: 0
+                   }
+         .main {padding: 0;
+                height: 100%;
+                padding-right: 0;
+                margin-right: 0}
+         nav { background-color: #ebbd3f;
+                z-index: 500000000;
+              position: fixed;
+              width: 110%}
+         .footer {padding-right: 0;
+                height: 250px;
+                background-color: #ebbd3f;
+                color: white;
+                padding-top: 30px;
+                overflow: hidden;
+                margin-bottom: 0
+          }
+         .about {margin-top: 20px;
+         
+                color: white}
+         .projects {margin-top: 200px;
+                       color: white}
+         
+         ul {list-style-type: none;}
+                       li {color: white;
+            }
+         .contacts {display: inline;
+                    }
+         .icon-github-sign {color: white;
+                            margin-right: 20px}
+         .icon-facebook-sign {color: white;
+                               margin-right: 20px}
+         .icon-twitter-sign {color: white;
+                       margin-right: 20px}
+         .imgcontainer {width : 200px;
+                       height: 200px;
+                       margin: auto auto;
+                       }
+         .myface {width: 100%;
+                  width: 200px;
+                  }
+         .p {font-family: 'Dancing Script', cursive;}
+         
+         .cn {border: solid white 2px;
+             width: 200px;
+             margin: auto auto}
+         .pj {color: white}
+         .h2 {color: white}
+         .peace{margin-top: 100px;
+                font-family: 'Dancing Script', cursive;}
+}
+.pike {width: 90px;
+       border: solid 2px red}

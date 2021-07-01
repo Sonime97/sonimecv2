@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="index.css" rel="stylesheet" type="text/css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <title>SONIME PORTFOLIO</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark container-fluid">
+      <a class="navbar-brand" href="#">SONIME PORTFOLIO</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">ABOUT</a>
+          </li>
+          <li class="nav-item">
+
+            <a class="nav-link" href="#projects">PROJECTS</a>
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacts">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="main container-fluid">
+      <div class="overlay container-fluid">
+        <div class=" container-fluid row ab">
+          <div class="col-md-12 about text-center content" id="about content">
+               <h3 class="aye" id="aye">ABOUT ME</h3>
+               <hr class="pike">
+               <p>Hi i am Sonime Amiesimaka a front end developer i specialize in html, css, javascript, bootstrap,
+                react,wordpress,wix and a bit php,<br>i am a self taught programmer i learnt programming using various platforms like
+                codecademy,freecodecamp,youtube,<br>udemy and w3school i still use these platforms<br> for reference purposes
+               </p> 
+                 <div class="col-md-12">
+                    <div class="imgcontainer">
+                        <img class="rounded myface" src="images/IMG_0452.jpeg">
+                    </div>
+                 </div>
+                     <h3 class="projects" id=projects>MY PROJECTS</h3>
+                     <hr class="pike">
+                        <ul>  
+                          <a href="https://forbeschecker.herokuapp.com" target="_blank"><li><h4>Forbes Check</h4></li></a>
+                          <a href="https://sonimetodoapp.herokuapp.com" target="_blank"><li><h4>Todo app</h4></li></a>
+                          <a href="https://qualityrestaurant.netlify.app/" target="_blank"><li><h4>Restaurant project</h4></li></a>
+                        </ul>
+                 
+                
+          </div>
+        </div>
+      </div> 
+      
+  
+      
+        
+      
+      <img class="backgrd" src="images/pexels-burst-374631.jpg">  
+    </div>
+    <div class="container-fluid">
+     <div class="footer row text-center">
+        <div class="col-md-12 footer">
+          <h3 id="contacts">CONTACT</h3>
+          <hr class="cn">
+          <p>You can always contact me through the links below</p>
+          <ul id="contact">
+            <li class="contacts"><a href="https://github.com/solitytv" target='_blank'><i class="icon-github-sign fa-lg icon-2x"></i></a></li>
+            <li class="contacts"><a href="https://github.com/solitytv" target="_blank"><i class="icon-twitter-sign fa-lg icon-2x"></a></i></li>
+            <li class="contacts"><a href="https://facebook.com/solitytv" target="_blank"><i class="icon-facebook-sign fa-lg icon-2x"></i></a></i></li>
+       </ul>
+        <div class="col-md-12 text-center">
+            <p>&copy; SONIME AMIESIMAKA 2021</p> 
+        </div>
+        </div>
+     </div>
+     </div>
+        <script>
+          document.querySelector(".aye").addEventListener("click",myFunct);
+          var abouts = ['ABOUT ME','ABOUT SONIME']
+          var x = 0
+          function myFunct() {
+            x++;
+            var y = document.getElementById('aye') 
+             if (x > 1) { x = 0}
+             y.innerHTML = abouts[x];
+          }
+        </script>
+  </body>
+</html>
